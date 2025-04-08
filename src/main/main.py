@@ -8,7 +8,7 @@ tickerInput = input("Enter ticker:")
 # print(p.current)
 # print(p.yesterday)
 
-
+print(inputToPrice(inputToTicker(tickerInput)))
 print(get_historical_price(inputToTicker(tickerInput), "1wk"))
 print(get_historical_price(inputToTicker(tickerInput), "1mo"))
 print(get_historical_price(inputToTicker(tickerInput), "1y"))
