@@ -21,3 +21,10 @@ def inputToTicker(x):
             return "ZC=F"
         case "wheat":
             return "ZW=F"
+
+class TickerInfo:
+    def __init__(self, name, ticker, current, yesterday):
+        self.name = name
+        self.ticker = ticker
+        self.current = current
+        self.yesterday = yesterday
